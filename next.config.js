@@ -3,7 +3,11 @@ module.exports = {
     webpack5: true,
   },
   webpack: (config) => {
-
-    return  config
+    /**
+      config.output.chunkFilename = isServer
+      ? `${dev ? "[name]" : "[name].[fullhash]"}.js`
+      : `static/chunks/${dev ? "[name]" : "[name].[fullhash]"}.js`;
+     */
+    return config;
   },
 };
