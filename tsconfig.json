@@ -21,6 +21,6 @@
     "**/*.tsx",
     "next.config.js",
     "components/editor/workers/typings.worker.ts"
-  ],
+, "components/editor/untitles.txt"  ],
   "exclude": ["node_modules"]
 }
